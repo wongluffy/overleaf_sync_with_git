@@ -26,6 +26,7 @@ runs:
   image: "Dockerfile"
   args:
     - ${{ inputs.OVERLEAF_COOKIE }}
+    - ${{ inputs.OVERLEAF_COOKIE_KEY }}    
     - ${{ inputs.OVERLEAF_PROJECT_ID }}
     - ${{ inputs.OVERLEAF_HOST }}
 
